@@ -7,7 +7,7 @@
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #BE93D4;
+      background-color: #FDFAF1;
       color: #4a4a4a;
       margin: 0;
       padding: 0;
@@ -36,15 +36,15 @@
       font-size: 1.1rem;
       line-height: 1.6;
     }
-    a.button {
-      display: inline-block;
+   .store-buttons {
       margin-top: 25px;
-      padding: 12px 25px;
-      background-color: #D8BFD8;
-      color: white;
-      text-decoration: none;
-      border-radius: 10px;
-      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .store-buttons a img {
+      height: 45px;
     }
     footer {
       margin-top: 60px;
@@ -64,12 +64,14 @@
       Bu sayfa <strong>Bebek Ek Gıda Mutfağı</strong> uygulamasının web sitesidir.
       Uygulamamız bebekler için sağlıklı ve pratik tarifler sunar.
     </p>
+    <div class="store-buttons">
     <a class="button" href="https://play.google.com/store/apps/details?id=com.bebekekgidamutfagi.app" target="_blank">
        <img src="GooglePlay.png" alt="Google Play'den indir">
     </a>
      <a class="button" href="https://apps.apple.com/app/id000000000" target="_blank">
         <img src="AppStore.png" alt="App Store'dan indir">
       </a>
+    </div>
   </main>
   <footer>
     &copy; 2025 Bebek Ek Gıda Mutfağı
